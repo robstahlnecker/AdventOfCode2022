@@ -4,7 +4,6 @@ namespace AdventOfCode2022_Day1
 {
     internal static class Program
     {
-        private const int ElfCutOff = 3;
         private const string FilePath = @"";
 
         static void Main(string[] args)
@@ -27,8 +26,8 @@ namespace AdventOfCode2022_Day1
             }
 
             var evlesWthMostCaloriesDesc = elves.OrderByDescending(elf => elf.FoodItems.Sum(food => food.Calories)).ToList();
-
-            Console.WriteLine($"Total Calories: ({evlesWthMostCaloriesDesc.Take(ElfCutOff).SelectMany(x => x.FoodItems).Sum(x => x.Calories)})");
+            Console.WriteLine($"Total calories for top 1: ({evlesWthMostCaloriesDesc.Take(1).SelectMany(x => x.FoodItems).Sum(x => x.Calories)})");
+            Console.WriteLine($"Total calories for top 3: ({evlesWthMostCaloriesDesc.Take(3).SelectMany(x => x.FoodItems).Sum(x => x.Calories)})");
             Console.ReadKey();
         }
     }
