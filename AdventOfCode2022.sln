@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode2022 Day1", "AdventOfCode2022 Day1\AdventOfCode2022 Day1.csproj", "{6A477AC7-A975-484C-9462-03B9043F4E18}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 1", "Day 1", "{85BA362F-B8FF-4984-A217-CA9F635E03A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 2", "Day 2", "{B4852F73-289D-487E-8285-E126533A31F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCodeDay2", "AdventOfCodeDay2\AdventOfCodeDay2.csproj", "{E894518F-AFD9-4D07-9413-A5542A1862B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{6A477AC7-A975-484C-9462-03B9043F4E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A477AC7-A975-484C-9462-03B9043F4E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A477AC7-A975-484C-9462-03B9043F4E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E894518F-AFD9-4D07-9413-A5542A1862B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E894518F-AFD9-4D07-9413-A5542A1862B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E894518F-AFD9-4D07-9413-A5542A1862B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E894518F-AFD9-4D07-9413-A5542A1862B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A477AC7-A975-484C-9462-03B9043F4E18} = {85BA362F-B8FF-4984-A217-CA9F635E03A6}
+		{E894518F-AFD9-4D07-9413-A5542A1862B0} = {B4852F73-289D-487E-8285-E126533A31F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D510C7C8-7EB0-4BC6-AFA5-40FA17CE495C}
